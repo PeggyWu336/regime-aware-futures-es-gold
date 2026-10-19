@@ -1,0 +1,21 @@
+# Proprietary data: never upload
+*.db
+*.sqlite
+*.sqlite3
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+sample_data/
+
+# OS / editor
+.DS_Store
+desktop.ini
+.vscode/
